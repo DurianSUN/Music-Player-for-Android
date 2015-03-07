@@ -17,6 +17,8 @@ public class MusicApp extends Application {
 	private static String rootPath = "/mymusic";
 	public static String lrcPath = "/lrc";
 	
+	
+	
 	@Override
 	public void onCreate() {
 		super.onCreate();
