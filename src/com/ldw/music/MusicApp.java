@@ -20,11 +20,9 @@ public class MusicApp extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		
 		mServiceManager = new ServiceManager(this);
 		initPath();
 	}
-	
 	private void initPath() {
 		String ROOT = "";
 		if(Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
